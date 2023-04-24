@@ -12,6 +12,8 @@
     <!-- Font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
     <!--Custom styles sheet-->
     <link rel="stylesheet" href="styles.css" type="text/css">
 
@@ -48,8 +50,7 @@
 
     <section class="home" id="home">
         <div class="content">
-            <h3>Raising hope</h3>
-            <p>to the homeless & hopeless people</p>
+            <h3>Raising hope to the homeless & hopeless people</h3>
             <p>Today, 690 million people around the world will go to bed on an empty stomach. 
                 But your gift means that one less child will be at risk of starvation tonight.
                 By starting a monthly gift, you can change a life forever. Often, one meal at the 
@@ -62,7 +63,7 @@
 
     <!--Start of about section-->
 
-    <section class="about" id="about">
+ <section class="about" id="about">
 
 <div class="content">
     <h1>Welcome to LoveCare charity</h1>
@@ -135,83 +136,238 @@
         <h6 class="sub-heading">Causes</h6>
         <h1 class="heading">Our causes & help us</h1>
 
-                <div class="content">
-                    <div class="box">
-                            <img src="images/projects.jpg" alt="#">
-                        <div class="text">
-                            <h3>Projects</h3>
-                            <p>We have completed more than nine thousand projects and are hoping to do 
-                                even more projects in the coming years.
-                            </p>
-                            <a href="#" class="btn">Join us</a>
-                        </div>
-                    </div>
-    
-                    <div class="box">
-                            <img src="images/volunteer.jpg" alt="#">
-                            <div class="text">
-                            <h3>Volunteers</h3>
-                            <p>Our team consists of two thousand plus volunteers around the world.
-                                If you would like to join us give us a call. 
-                            </p>
-                            <a href="#" class="btn">Join us</a>
-                            </div>
-                    </div>
-    
-                    <div class="box">
-                            <img src="images/money.jpg" alt="#">
-                        <div class="text">
-                            <h3>Finances</h3>
-                            <p>Thanks to your continued support we have been able to raise six million dollars
-                                to help in our various charities.
-                            </p>
-                            <a href="#" class="btn">Join us</a>
-                            </div>
-                    </div>
-    
-                    <div class="box">
-                            <img src="images/donations.jpg" alt="#">
-                        <div class="text">
-                            <h3>Donations</h3>
-                            <p>We have received over six thousand donations which include food and clothes. 
-                                Feel free to join the good cause and help others.
-                            </p>
-                            <a href="#" class="btn">Join us</a>
-                            </div>
-                    </div>
+            <div class="box-container">
 
-                    <div class="box">
-                            <img src="images/education.jpg" alt="#">
-                        <div class="text">
-                            <h3>Education</h3>
-                            <p>Soem of the funds donated have been used to put children through school
-                                so as to give them a bright future as leaders of tommorrow.
-                            </p>
+                <div class="box">
+                    <img class="image" src="images/projects.jpg" alt="">
+                    <div class="content">
+                        <h3>projects</h3>
+                        <p>We have completed more than nine thousand projects and are hoping to do 
+                            even more projects in the coming years.!</p>
                             <a href="#" class="btn">Join us</a>
-                            </div>
-                    </div>
-
-                    <div class="box">
-                            <img src="images/trees.jpg" alt="#">
-                        <div class="text">
-                            <h3>Environment</h3>
-                            <p>As an organization we are big on saving the environment so we put in some funds
-                                for environmental conservation and tree planting.
-                            </p>
-                            <a href="#" class="btn">Join us</a>
-                            </div>
                     </div>
                 </div>
+        
+                <div class="box">
+                    <img class="image" src="images/volunteer.jpg" alt="">
+                    <div class="content">
+                        <h3>volunteers</h3>
+                        <p>Our team consists of two thousand plus volunteers around the world.
+                            If you would like to join us give us a call.!</p>
+                            <a href="#" class="btn">Join us</a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img class="image" src="images/money.jpg" alt="">
+                    <div class="content">
+                        <h3>finances</h3>
+                        <p>Thanks to your continued support we have been able to raise six million dollars
+                            to help in our various charities.!</p>
+                            <a href="#" class="btn">Join us</a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img class="image" src="images/donations.jpg" alt="">
+                    <div class="content">
+                        <h3>donations</h3>
+                        <p>We have received over six thousand donations which include food and clothes. 
+                        Feel free to join the good cause and help others.!</p>
+                        <a href="#" class="btn">Join us</a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img class="image" src="images/education.jpg" alt="">
+                    <div class="content">
+                        <h3>education</h3>
+                        <p>Some of the funds donated have been used to put children through school
+                            so as to give them a bright future as leaders of tommorrow.!</p>
+                            <a href="#" class="btn">Join us</a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <img class="image" src="images/trees.jpg" alt="">
+                    <div class="content">
+                        <h3>environment</h3>
+                        <p>As an organization we are big on saving the environment so we put in some funds
+                            for environmental conservation and tree planting.!</p>
+                            <a href="#" class="btn">Join us</a>
+                    </div>
+                </div>
+        
+            </div>
+        
     </section>
+
 
    <!--End of causes section-->
 
    <!--Volunteers Section-->
    <section class="volunteers" id="volunteers">
     <h6 class="sub-heading">meet our volunteers</h6>
-        <h1 class="heading">Volunteers</h1>
+    <h1 class="heading">Volunteers</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic1.png" alt="">
+            <h3>Evangelina Webley</h3>
+            <h4>volunteer</h4>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <p>"I hold that a strongly marked personality can influence descendants for generations."</p>
+        </div>
+
+        <div class="box">
+            <img src="images/pic2.png" alt="">
+            <h3>Issac Peirs</h3>
+            <h4>volunteer</h4>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <p>"Be who you are and say what you feel, because to those who mind don't matter and those who matter don't mind."</p>
+        </div>
+
+        <div class="box">
+            <img src="images/pic3.png" alt="">
+            <h3>Ellisa Von</h3>
+            <h4>volunteer</h4>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <p>"One of the greatest regrets in life is being what others want you to be rather tha being yourself.”</p>
+        </div>
+
+        <div class="box">
+            <img src="images/pic4.png" alt="">
+            <h3>Ezekiel Reign</h3>
+            <h4>volunteer</h4>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <p>"What you do doe not frighten your enemies as much as what you are.”</p>
+        </div>  
+
+    </div>
    </section>
 
+   <!--end of volunteers section-->
+
+   <!--Start of reviews section-->
+   <section class="review" id="review">
+
+    <h6 class="sub-heading">what people say</h6>
+    <h1 class="heading">Testimonials</h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic1.png" alt="">
+                <div class="user-info">
+                    <h3>Olive Yew</h3>
+                </div>
+                </div>
+                <p>For almost a decade I've trusted LoveCare to guide most of my donations. 
+                    Without them, I couldn't answer the question that matters most to me: How can I do the 
+                    most good with my limited funds?</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic2.png" alt="">
+                    <div class="user-info">
+                        <h3>Allie Grater</h3>
+                    </div>
+                </div>
+                <p>For almost a decade I've trusted LoveCare to guide most of my donations. 
+                    Without them, I couldn't answer the question that matters most to me: How can I do the 
+                    most good with my limited funds?</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic3.png" alt="">
+                    <div class="user-info">
+                        <h3>Alexander Q</h3>
+                    </div>
+                </div>
+                <p>For almost a decade I've trusted LoveCare to guide most of my donations. 
+                    Without them, I couldn't answer the question that matters most to me: How can I do the 
+                    most good with my limited funds?</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic4.png" alt="">
+                    <div class="user-info">
+                        <h3>Kelly Young</h3>
+                    </div>
+                </div>
+                <p>For almost a decade I've trusted LoveCare to guide most of my donations. 
+                    Without them, I couldn't answer the question that matters most to me: How can I do the 
+                    most good with my limited funds?</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic5.png" alt="">
+                    <div class="user-info">
+                        <h3>John Smith</h3>
+                    </div>
+                </div>
+                <p>For almost a decade I've trusted LoveCare to guide most of my donations. 
+                    Without them, I couldn't answer the question that matters most to me: How can I do the 
+                    most good with my limited funds?</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic5.png" alt="">
+                    <div class="user-info">
+                        <h3>Kelly Young</h3>
+                    </div>
+                </div>
+                <p>For almost a decade I've trusted LoveCare to guide most of my donations. 
+                    Without them, I couldn't answer the question that matters most to me: How can I do the 
+                    most good with my limited funds?</p>
+            </div>
+        </div>
+    </div>
+
+   </section>
+   <!--End of reviews section-->
+
+   <!--Start of blogs section-->
+
+   <section class="blog" id="blog">
+
+    <h6 class="sub-heading">recent from blog</h6>
+    <h1 class="heading">our blog</h1>
+
+   </section>
+
+   <!--End of blogs section-->
 
 
 
@@ -254,6 +410,7 @@
 
 
 
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!--Custom Js file-->
     <script src="script.js"></script>
